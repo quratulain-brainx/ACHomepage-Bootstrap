@@ -1,0 +1,86 @@
+.navbar {
+    height: 65px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+}
+
+.nav a:link {
+    color: #5C5C5C;
+    font-size: 16px;
+    text-decoration: none;
+}
+.nav a:hover {
+    color: #0AA1BC;
+}
+
+.nav li.active a {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+.navbar .btn-register {
+    color: #0AA1BC;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.navbar .btn-signin {
+    border: 0.5px solid #0AA1BC;
+    color: #0AA1BC;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+.btn:hover {
+    color: #0AA1BC;
+}
+.btn .btn-search {
+    color: #ffffff;
+    background-color: #0AA1BC;
+    border-radius: 0px 3px 3px 0px;
+    border: 1px solid red;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.carousel-img {
+    max-width: 1920px;
+    max-height: 1065px;
+    object-fit: cover;
+}
+.carousel-inner {
+    position: relative;
+}
+.CTA-on-image {
+    position: absolute;
+    bottom: 180px;
+    left: 136px;
+}
+.CTA-on-image h4{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 49px;
+    font-weight: bold;
+    margin: 0;
+}
+.CTA-on-image h5{
+    text-align: left;
+    color: #000000;
+    font-size: 29px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.CTA-on-image .price{
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 38px;
+    /*font-weight: bold;*/
+}
+.add-to-cart {
+    background-color: #0AA1BC;
+    color: #FFFFFF;
+    font-size: 22px;
+    border: 1px solid white;
+    border-radius: 0px;
+    width: 300px;
+    height: 59px;
+}
