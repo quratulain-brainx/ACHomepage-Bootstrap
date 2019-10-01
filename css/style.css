@@ -54,24 +54,24 @@
 }
 .CTA-on-header {
     position: absolute;
-    bottom: 180px;
-    left: 136px;
+    bottom: 20%;
+    left: 15%;
 }
-.CTA-on-image h4{
+.CTA-on-header h4{
     text-align: left;
     color: #FFFFFF;
     font-size: 49px;
     font-weight: bold;
     margin: 0;
 }
-.CTA-on-image h5{
+.CTA-on-header h5{
     text-align: left;
     color: #000000;
     font-size: 29px;
     font-weight: bold;
     margin-top: 0px;
 }
-.CTA-on-image .price{
+.CTA-on-header .price{
     text-align: left;
     color: #FFFFFF;
     font-size: 38px;
@@ -183,7 +183,8 @@ hr {
 }
 .CTA-on-blog {
     position: absolute;
-    /*vertical-align: center;*/
+    font-size: 20px;
+    letter-spacing: 2px;
     left: 40%;
     top: 80%;
     width: 250px;
@@ -200,4 +201,19 @@ hr {
     margin: auto;
     color: #FFFFFF;
     font-weight: lighter;
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(10,131,188);
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(10,131,188, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.insta-image {
+    height: 517px;
+    width: 100%;
+    object-fit: cover;
+}
+.horizontal-line {
+    border-bottom: 1px solid #d3d3d3;
 }
