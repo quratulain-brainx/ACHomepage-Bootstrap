@@ -78,11 +78,9 @@
     /*font-weight: bold;*/
 }
 .add-to-cart {
-    background-color: #0AA1BC;
-    color: #FFFFFF;
+    background-color: #0AA1BC !important;
+    color: #FFFFFF !important;
     font-size: 22px;
-    /*border: 1px solid white;*/
-    border-radius: 0px;
     width: 300px;
     height: 59px;
 }
@@ -102,8 +100,9 @@
 
 .btn-share {
     border-radius: 100px;
-    background-color: #0AA1BC;
+    background-color: #0AA1BC !important;
     color: #FFFFFF;
+    border: none;
 }
 hr {
     max-width: 80%;
@@ -140,15 +139,17 @@ hr {
     color: black;
     width: 41px;
     height: 39px;
+    border: none;
 }
 .add {
     background-color: #0AA5C1;
     color: #FFFFFF;
     width: 41px;
     height: 39px;
+    border: none;
 }
 .btn-add-to-cart-outline {
-    border: 1px solid #0AA1BC;
+    border: 1px solid #0AA1BC !important;
     width: 122px;
     height: 42px;
 }
@@ -164,4 +165,16 @@ hr {
 .item-nav .active {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.4px solid #0AA1BC;
+}
+.text-muted {
+    color: #000000;
+    opacity: 0.5;
+}
+.item-image {
+    width: 100%;
+}
+.image-active {
+    max-width: 352.9px;
+    /*height: 306.5px;*/
+    border: solid 15px #eaeaea;
 }
