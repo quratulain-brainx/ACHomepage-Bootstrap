@@ -43,7 +43,7 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.carousel-img {
+.header-image {
     width: 100%;
     max-width: 1920px;
     max-height: 1065px;
@@ -52,7 +52,7 @@
 .carousel-inner {
     position: relative;
 }
-.CTA-on-image {
+.CTA-on-header {
     position: absolute;
     bottom: 180px;
     left: 136px;
@@ -84,7 +84,7 @@
     width: 300px;
     height: 59px;
 }
-.text-on-image {
+.text-on-header {
     position: absolute;
     top: 85%;
     left:15%;
@@ -177,4 +177,27 @@ hr {
     max-width: 352.9px;
     /*height: 306.5px;*/
     border: solid 15px #eaeaea;
+}
+.blog-container {
+    position: relative;
+}
+.CTA-on-blog {
+    position: absolute;
+    /*vertical-align: center;*/
+    left: 40%;
+    top: 80%;
+    width: 250px;
+    height: 55px;
+    border: 5px solid #FFFFFF !important;
+    color: #FFFFFF !important;
+}
+.text-on-blog {
+    position: absolute;
+    top: 65%;
+    left:15%;
+    max-width: 1050px;
+    text-align: center;
+    margin: auto;
+    color: #FFFFFF;
+    font-weight: lighter;
 }
